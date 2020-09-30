@@ -11,6 +11,9 @@ export dyf=$pda/Utility/Git/dyskun/dyfrad
 export dyd=$pda/Utility/Git/dyskun/dyfrad/_drafts
 export dyp=$pda/Utility/Git/dyskun/dyfrad/_posts
 
+# msaharan
+export msa=$pda/Utility/Git/dyskun/msaharan/
+
 # programs
 export foxit=~/Products/foxitsoftware/foxitreader/FoxitReader
 

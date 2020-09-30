@@ -1,4 +1,3 @@
 #!/bin/sh
-cd $pda/Utility/Git/dyskun/tuxconfig/bash/
-cp -f .bashrc ~/ 
+rsync -avp $pda/Utility/Git/dyskun/tuxconfig/bash/.bashrc ~/ 
 

@@ -6,8 +6,11 @@
 trash() { mv "$@" $HOME/.local/share/Trash/files/; }
 cf() { cd "$@" && ls; }
 
+# programs
 ## texstudio
-tsb() { texstudio "$@" &}
+ts() { texstudio "$@" & }
+## okular
+ok() { okular "$@" & }
 
 
 

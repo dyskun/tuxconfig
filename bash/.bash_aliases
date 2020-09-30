@@ -1,6 +1,6 @@
-#
+###
 # ~/.bash_aliases
-#
+##
 
 # System commands
 alias sbrc='source ~/.bashrc'
@@ -31,11 +31,11 @@ alias bst='rsync -avp /mnt/storage/pdata/ /mnt/epublic/bstorage/'
 alias bje='bundle exec jekyll build' 
 alias sje='bundle exec jekyll serve' 
 ## bash
-alias vbrc='vim ~/.bashrc'
-alias vba='vim ~/.bash_aliases'
-alias vbf='vim ~/.bash_functions'
-alias vbe='vim ~/.bash_exports'
-alias vvrc='vim ~/.vimrc'
+alias vbrc='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bashrc && sh $pda/Utility/Git/dyskun/tuxconfig/bash/sync-brc.sh'
+alias vba='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_aliases && sh $pda/Utility/Git/dyskun/tuxconfig/bash/sync-all.sh'
+alias vbf='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_functions && sh $pda/Utility/Git/dyskun/tuxconfig/bash/sync-all.sh'
+alias vbe='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_exports && sh $pda/Utility/Git/dyskun/tuxconfig/bash/sync-all.sh'
+alias vvrc='vim $pda/Utility/Git/dyskun/tuxconfig/vim/.vimrc && sh $pda/Utility/Git/dyskun/tuxconfig/vim/sync-vrc.sh'
 ## Vim
 alias v='vim'
 alias vd='vimdiff'
@@ -68,16 +68,16 @@ alias foxit='/home/dyskun/Products/foxitsoftware/foxitreader/FoxitReader'
 ## P3x-OneNote
 alias one='~/Products/p3x-onenote/P3X-OneNote-2020.10.111.AppImage &'
 ## TeXStudio
-alias ts='texstudio'
+#alias ts='texstudio'
 ## Okular
-alias ok='okular'
+#alias ok='okular'
 ## viewnior
 alias vn="viewnior"
 
 # Directories
 alias woh='cd /mnt/wpc/home/dyskun'
 alias peh='cd /mnt/ppc/home/dyskun'
-alias epr='cd /mnt/eprivate && ls'
+alias epr='cd /run/media/dyskun/Private/ && ls'
 alias epu='cd /mnt/epublic && ls'
 alias sto='cd /mnt/storage && ls'
 alias pda='cd /mnt/storage/pdata && ls'
@@ -120,6 +120,8 @@ alias msp='cd $pda/Utility/Git/dyskun/msaharan/_posts && ls'
 
 # cosmology project
 alias pap='cd $pda/Utility/Academics/Cosmology_project/References/Papers/ && ls'
+alias ppou='cd $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014 && ls'
+alias pdum='cd $pda/Utility/Academics/Cosmology_project/References/Papers/dumitru && ls'
 alias c2s='cd $pda/Utility/Git/dyskun/C2SNR/ && ls'
 alias c2='cd $pda/Utility/Git/dyskun/C2SNR/C2 && ls'
 alias dat='cd $pda/Utility/Git/dyskun/C2SNR/C2/data-files && ls'

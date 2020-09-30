@@ -1,4 +1,5 @@
 #!/bin/sh
-cd $pda/Utility/Git/dyskun/tuxconfig/bash/
-cp -f .bash_aliases .bash_exports .bash_functions ~/ 
+rsync -avp $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_aliases ~/.bash_aliases
+rsync -avp $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_exports ~/.bash_exports
+rsync -avp $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_functions ~/.bash_functions
 
