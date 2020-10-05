@@ -14,6 +14,9 @@ export dyp=$pda/Utility/Git/dyskun/dyfrad/_posts
 # msaharan
 export msa=$pda/Utility/Git/dyskun/msaharan/
 
+# librenav
+export lnv=$pda/Utility/Git/dyskun/librenav
+
 # programs
 export foxit=~/Products/foxitsoftware/foxitreader/FoxitReader
 

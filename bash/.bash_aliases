@@ -11,7 +11,9 @@ alias cb='cd .. && ls'
 alias lsh='ls -ltrh'
 alias dus='du -sh'
 alias utux='sudo pacman -Syu'
+alias ytux='yay -Syu'
 alias rutux='sudo pacman -Syyu'
+alias rytux='yay -Syyu'
 alias mwo='sudo mount /dev/sda2 /mnt/wpc'
 alias umwo='sudo umount /dev/sda2'
 alias mpe='sudo mount /dev/sda3 /mnt/ppc'
@@ -25,6 +27,9 @@ alias bph="rsync -avp --exclude '.cache' --exclude '.local/share/Trash' ~/ /mnt/
 alias bwhd="rsync -avp --delete --exclude '.cache' --exclude '.local/share/Trash' ~/ /mnt/epublic/wpc-home/"
 alias bphd="rsync -avp --delete --exclude '.cache' --exclude '.local/share/Trash' ~/ /mnt/epublic/ppc-home/"
 alias bst='rsync -avp /mnt/storage/pdata/ /mnt/epublic/bstorage/'
+alias pin='sudo pacman -S'
+alias prin='sudo pacman -Sy'
+alias pse='pacman -Ss'
 
 # Programs
 ## jekyll and bundle
@@ -36,10 +41,10 @@ alias vba='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_aliases && sh $pda/U
 alias vbf='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_functions && sh $pda/Utility/Git/dyskun/tuxconfig/bash/sync-all.sh'
 alias vbe='vim $pda/Utility/Git/dyskun/tuxconfig/bash/.bash_exports && sh $pda/Utility/Git/dyskun/tuxconfig/bash/sync-all.sh'
 alias vvrc='vim $pda/Utility/Git/dyskun/tuxconfig/vim/.vimrc && sh $pda/Utility/Git/dyskun/tuxconfig/vim/sync-vrc.sh'
-## Vim
+## vim
 alias v='vim'
 alias vd='vimdiff'
-## Python
+## python
 alias cosmo='conda activate /home/dyskun/anaconda3/envs/cosmo/'
 alias ml='conda activate /home/dyskun/anaconda3/envs/ml/'
 alias dcon='conda deactivate'
@@ -47,24 +52,24 @@ alias acon='conda activate'
 alias py='python'
 ## XP-pen driver
 alias xp='sudo $pda/Utility/Software/xp-pen-driver/driver/Pentablet_Driver.sh'
-## WiFi
+## wiFi
 ### using nmtui
 alias trux='nmtui connect Rux'
 ### using nmcli
 alias crux='~/scripts/crux.sh'
-## Toggl Desktop
+## toggl
 alias tog='~/Products/toggl/TogglDesktop.sh'
-## Git
+## git
 alias gst='git status'
 alias gaa='git add .'
 alias ga='git add'
 alias gcm='git commit -m'
 alias gca='git commit -a'
 alias gp='git push'
-alias guname='git config user.name'
-alias guemail='git config user.email'
+alias gun='git config user.name'
+alias gue='git config user.email'
 ## Foxit Reader
-alias foxit='/home/dyskun/Products/foxitsoftware/foxitreader/FoxitReader'
+alias fox='/home/dyskun/Products/foxitsoftware/foxitreader/FoxitReader'
 ## P3x-OneNote
 alias one='~/Products/p3x-onenote/P3X-OneNote-2020.10.111.AppImage &'
 ## TeXStudio
@@ -99,6 +104,8 @@ alias sen='cd $pda/Utility/Git/dyskun/sencilla/ && ls'
 alias mov='cd $pda/Utility/movies && ls'
 alias acv='cd $pda/Utility/Git/dyskun/cv/cv/ && ls'
 alias icv='cd $pda/Utility/Git/dyskun/cv/resume/ && ls'
+alias aya='cd $pda/Utility/Git/dyskun/ayaan && ls'
+alias tux='cd $pda/Utility/Git/dyskun/tuxconfig && ls'
 
 # dyfrad
 alias dyf='cd $pda/Utility/Git/dyskun/dyfrad && ls'
@@ -118,7 +125,16 @@ alias dms='$pda/Utility/Git/dyskun/msaharan/_scripts/_dev-site.sh'
 alias msd='cd $pda/Utility/Git/dyskun/msaharan/_drafts && ls'
 alias msp='cd $pda/Utility/Git/dyskun/msaharan/_posts && ls'
 
+# librenav
+alias lnv='cd /mnt/storage/pdata/Utility/Git/dyskun/librenav && ls'
+alias lnp='cd /mnt/storage/pdata/Utility/Git/dyskun/librenav/_posts && ls'
+alias dln='$pda/Utility/Git/dyskun/librenav/_scripts/_dev-site.sh'
+alias uln='$pda/Utility/Git/dyskun/librenav/_scripts/_update-site.sh'
+
 # cosmology project
+alias 21alk='okular $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014/21-alk.pdf &'
+alias sbalk='okular $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014/sb-alk.pdf &' 
+alias cpro='cd $pda/Utility/Academics/Cosmology_project/ && ls'
 alias pap='cd $pda/Utility/Academics/Cosmology_project/References/Papers/ && ls'
 alias ppou='cd $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014 && ls'
 alias pdum='cd $pda/Utility/Academics/Cosmology_project/References/Papers/dumitru && ls'
