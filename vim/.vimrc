@@ -5,10 +5,10 @@ set showmatch
 set incsearch
 set hlsearch
 syntax enable
-set tabstop=2
+set tabstop=4
 filetype indent on
 set expandtab
-set softtabstop=2
-set shiftwidth=2
+set softtabstop=4
+set shiftwidth=4
 set clipboard=unnamed
 set encoding=UTF-8

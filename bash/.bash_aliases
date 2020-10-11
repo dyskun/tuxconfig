@@ -106,6 +106,8 @@ alias acv='cd $pda/Utility/Git/dyskun/cv/cv/ && ls'
 alias icv='cd $pda/Utility/Git/dyskun/cv/resume/ && ls'
 alias aya='cd $pda/Utility/Git/dyskun/ayaan && ls'
 alias tux='cd $pda/Utility/Git/dyskun/tuxconfig && ls'
+alias phd='cd $pda/Utility/Git/dyskun/phd && ls'
+alias vphd='vim $pda/Utility/Git/dyskun/phd/README.md'
 
 # dyfrad
 alias dyf='cd $pda/Utility/Git/dyskun/dyfrad && ls'
@@ -134,6 +136,7 @@ alias uln='$pda/Utility/Git/dyskun/librenav/_scripts/_update-site.sh'
 # cosmology project
 alias 21alk='okular $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014/21-alk.pdf &'
 alias sbalk='okular $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014/sb-alk.pdf &' 
+alias pzahn='okular $pda/Utility/Academics/Cosmology_project/References/Papers/zahn_zald_2006.pdf &'
 alias cpro='cd $pda/Utility/Academics/Cosmology_project/ && ls'
 alias pap='cd $pda/Utility/Academics/Cosmology_project/References/Papers/ && ls'
 alias ppou='cd $pda/Utility/Academics/Cosmology_project/References/Papers/pourtsidou-2014 && ls'

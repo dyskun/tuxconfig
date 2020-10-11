@@ -1,3 +1,4 @@
 #!/bin/sh
-rsync -avp $pda/Utility/Git/dyskun/tuxconfig/bash/.bashrc ~/ 
+rsync -avp $pda/Utility/Git/dyskun/tuxconfig/bash/.bashrc ~/.bashrc
+source ~/.bashrc
 
